@@ -2,8 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:priority_matrix_app/constants.dart';
 import 'package:priority_matrix_app/model/task.dart';
-import 'package:priority_matrix_app/screen/details_screen.dart';
-import 'package:priority_matrix_app/widget/priority_card.dart';
+
+import '../components/priority_card.dart';
+import 'details_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);

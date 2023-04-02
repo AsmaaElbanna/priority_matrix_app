@@ -45,10 +45,10 @@ class PriorityCard extends StatelessWidget {
                     child: Padding(
                       padding: const EdgeInsets.symmetric(vertical: 8),
                       child: Text('${task?.description}',
-                      style: TextStyle(
-                        fontSize: kFontSizeM,
-                        color: kTextColor
-                      ),),
+                        style: TextStyle(
+                            fontSize: kFontSizeM,
+                            color: kTextColor
+                        ),),
                     ),
                   ),
                 ),
